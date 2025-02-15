@@ -8,6 +8,9 @@ def format_string(name, age):
         str: Formatted string
     """
     pass
+def format_person_info(name: str, age: int) -> str:
+    return f"{name} is {age} years old."
+
 
 def conditional_check(number):
     """
